@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import axios from "axios";
-import { Scale, Upload } from "lucide-react";
+import {  Upload } from "lucide-react";
 
 function App() {
   const [audioFile, setAudioFile] = useState<string | null>(null);
